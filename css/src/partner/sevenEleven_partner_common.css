@@ -1,0 +1,33 @@
+/* sevenEleven_partner_common.css */
+
+/* commonArea ==================== */
+i {font-style: normal;}
+#wrap {width: 100%; height: auto;}
+
+
+/* headBox ======== */
+.headBox {background-color: #fff;}
+.head_in {background-color: #fff;}
+.location, h1, .menu_mobile, .search, .happy {background-color: transparent;}
+
+/* titleBox ======== */
+.titleBox {background-color: #2a9346;}
+.title {background-color: transparent;}
+
+/* processBox ======== */
+.processBox {background-color: transparent;}
+.content_outer {background-color: transparent;}
+.icon {background-color: #2a9346;}
+.line {background-color: #ef8200;}
+.receipt {background-color: #2a9346;}
+
+/* snsBox ======== */
+.snsBox {background-color: #171717;}
+.snsBox_in {background-color: transparent;}
+.sns {background-color: transparent;}
+
+/* footBox ======== */
+.footBox {background-color: #171717;}
+.addressBox {background-color: transparent; color: #fff;}
+.snsBox_2 {background-color: transparent;}
+.sns_2 {background-color: transparent;}

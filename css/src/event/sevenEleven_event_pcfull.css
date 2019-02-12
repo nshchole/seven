@@ -1,0 +1,78 @@
+/* rwd_seven_main_pcfull.css */
+
+@media screen and (min-width: 1367px) {
+
+
+/* commonArea ==================== */
+.menu {float: left; margin-right: 1.145833333333333vw /* 22/1920*100 */; width: 4.166666666666667vw /* 80/1920*100 */;
+  min-height: 1.614583333333333vw /* 31/1920*100 */; max-height: 1.614583333333333vw /* 31/1920*100 */;
+  height: 1.614583333333333vw /* 31/1920*100 */; text-transform: uppercase; text-align: center;
+  line-height: 1.614583333333333vw; font-weight: bold;}
+.headBox, .titleBox {min-width: 14.58333333333333vw /* 280/1920*100 */; max-width: 100%; width: 100%;}
+
+
+/* headBox ======== */
+.headBox {min-width: 14.58333333333333vw /* 280/1920*100 */; width: 100%;
+  min-height: 3.125rem; max-height: 4.635416666666667vw/* 89/1920*100 */; height: 4.635416666666667vw/* 89/1920*100 */;}
+.head_in {position: absolute; top: 1.5625vw /* 30/1920*100 */; left: 8.333333333333333vw /* 160/1920*100 */;
+  min-width: 14.58333333333333vw /* 280/1920*100 */; max-width: 82.39583333333333vw /* 1582/1920*100 */;
+  width: 82.39583333333333vw /* 1582/1920*100 */;
+  min-height: 1.614583333333333vw /* 31/1920*100 */; max-height: 1.614583333333333vw /* 31/1920*100 */;
+  height: 1.614583333333333vw /* 31/1920*100 */;}
+h1 {float: left; margin-right: 35.41666666666667vw /* 680/1920*100 */; width: 11.97916666666667vw /* 230/1920*100 */;
+  height: 1.5625vw /* 30/1920*100 */; background-image: url("../../../img/headBox/logo.svg");
+  background-repeat: no-repeat; background-position: 50% 50%; background-size: cover;}
+.menu_05 {margin-right: 1.5625vw /* 30/1920*100 */;}
+.search, .happy {float: left; width: 3.645833333333333vw /* 70/1920*100 */; height: 1.614583333333333vw /* 31/1920*100 */;
+  font-weight: bold; text-align: center; font-size: 10pt; line-height: 1.614583333333333vw;}
+.search {margin-right: 0.6770833333333333vw /* 13/1920*100 */;}
+.location, .mobile {display: none;}
+
+
+/* titleBox ======== */
+.titleBox {min-height: 3.375rem; max-height: 3.5rem; height: 3.5rem;}
+.title {margin: auto; min-width: 2.604166666666667vw /* 50/1920*100 */; max-width: 13.41145833333333vw /* 103/1920*100 */; width: 7.540263543191801vw /* 103/1920*100 */;
+  min-height: 3.375rem; max-height: 3.5rem; height: 3.5rem; font-size: 1.50rem;
+  text-align: center; font-weight: bold; line-height: 3.5rem; text-transform: uppercase;}
+
+
+/* conBox ======== */
+.eventBox {margin: auto; position: relative; top: 7.320644216691069vw /* 100/1366*100 */;
+	width: 3000px; height: 266px;}
+.eventBox_01 {margin-left: 5.1875rem;}
+.eventBox_08 {margin-right: 0;}
+.evt {float: left; margin-right: 3.367496339677892vw /* 46/1366*100 */; width: 16.625rem; height: 16.625rem;}
+.eventBox_more {position: absolute; top: 305.2083333333333vw /* 1465/1366*100 */; left: 15vw /* 72/1366*100 */;
+	width: 17.91666666666667vw /* 86/1366*100 */; max-height: 2.5rem; height: 2.5rem;}
+
+
+/* footBox ======== */
+.footBox {position: relative; min-width: 14.58333333333333vw /* 280/1920*100 */; width: 100%;
+    min-height: 6.25rem; max-height: 9.375vw /* 180/1920*100 */; height: 9.375vw /* 180/1920*100 */;}
+.addressBox_out {position: absolute; left: 8.854166666666667vw /* 170/1920*100 */; top: 1.510416666666667vw /* 29/1920*100 */;
+  min-width: 14.58333333333333vw /* 280/1920*100 */; max-width: 82.39583333333333vw /* 1582/1920*100 */; width: 82.39583333333333vw /* 1582/1920*100 */;
+  min-height: 1.25rem; max-height: 3.802083333333333vw /* 73/1920*100 */; height: 3.802083333333333vw /* 73/1920*100 */;}
+.addressBox {font-style: normal; font-size: 12pt;
+  min-width: 14.58333333333333vw /* 280/1920*100 */; max-width: 44.27083333333333vw /* 850/1920*100 */; width: 44.27083333333333vw /* 850/1920*100 */;
+  min-height: 2.5rem; max-height: 3.802083333333333vw /* 73/1920*100 */; height: 3.802083333333333vw /* 73/1920*100 */;}
+.snsBox_2 {position: absolute; left: 72.39583333333333vw /* 1390/1920*100 */; top: 0.8333333333333333vw /* 16/1920*100 */;
+  min-width: 10vw /* 192/1920*100 */; width: 10vw /* 192/1920*100 */;
+  min-height: 1.25rem; max-height: 2.083333333333333vw /* 40/1920*100 */; height: 2.083333333333333vw /* 40/1920*100 */;}
+.sns_2 {min-width: 1.041666666666667vw /* 20/1920*100 */; max-width:  2.083333333333333vw /* 40/1920*100 */; width:  2.083333333333333vw /* 40/1920*100 */;
+  min-height: 1.25rem; max-height: 2.083333333333333vw /* 40/1920*100 */; height: 2.083333333333333vw /* 40/1920*100 */;}
+.facebook_2, .kakaotalk_2, .blog_2 {float: left; margin-right: 0.5208333333333333vw /* 10/1920*100 */;}
+.facebook_2 {background-image: url("../../../img/facebook_icon_03.png"); background-repeat: no-repeat;
+            background-position: 50% 50%; background-size: cover;}
+.kakaotalk_2 {background-image: url("../../../img/kakao_icon_03.png"); background-repeat: no-repeat;
+            background-position: 50% 50%; background-size: cover;}
+.blog_2 {background-image: url("../../../img/blog_icon_03.png"); background-repeat: no-repeat;
+            background-position: 50% 50%; background-size: cover}
+.instagram_2 {float: right; background-image: url("../../../img/insta_icon_03.png"); background-repeat: no-repeat;
+            background-position: 50% 50%; background-size: cover;}
+.pc, .up {display: none;}
+.familyBox {position: absolute; top: 6.302083333333333vw /* 121/1920*100 */; left: 8.854166666666667vw /* 170/1920*100 */;
+      width: 82.39583333333333vw /* 1582/1920*100 */; height: 1.8125rem; background-color: transparent;}
+.family select[name="sel"] {float: right; width: 6.822916666666667vw /* 131/1920*100 */; height: 1.510416666666667vw /* 29/1920*100 */;}
+
+
+} /*laptop end*/

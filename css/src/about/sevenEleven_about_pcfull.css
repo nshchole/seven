@@ -1,0 +1,162 @@
+/* sevenEleven_about_pcfull.css */
+
+@media screen and (min-width: 1367px) {
+
+/* commonArea ==================== */
+.menu {float: left; margin-right: 1.145833333333333vw /* 22/1920*100 */; width: 4.166666666666667vw /* 80/1920*100 */;
+  min-height: 1.614583333333333vw /* 31/1920*100 */; max-height: 1.614583333333333vw /* 31/1920*100 */;
+  height: 1.614583333333333vw /* 31/1920*100 */; text-transform: uppercase; text-align: center;
+  line-height: 1.614583333333333vw; font-weight: bold;}
+.headBox, .titleBox {min-width: 14.58333333333333vw /* 280/1920*100 */; max-width: 100%; width: 100%;}
+
+
+/* headBox ======== */
+.headBox {min-width: 14.58333333333333vw /* 280/1920*100 */; width: 100%;
+  min-height: 3.125rem; max-height: 4.635416666666667vw/* 89/1920*100 */; height: 4.635416666666667vw/* 89/1920*100 */;}
+.head_in {position: absolute; top: 1.5625vw /* 30/1920*100 */; left: 8.333333333333333vw /* 160/1920*100 */;
+  min-width: 14.58333333333333vw /* 280/1920*100 */; max-width: 82.39583333333333vw /* 1582/1920*100 */;
+  width: 82.39583333333333vw /* 1582/1920*100 */;
+  min-height: 1.614583333333333vw /* 31/1920*100 */; max-height: 1.614583333333333vw /* 31/1920*100 */;
+  height: 1.614583333333333vw /* 31/1920*100 */;}
+h1 {float: left; margin-right: 35.41666666666667vw /* 680/1920*100 */; width: 11.97916666666667vw /* 230/1920*100 */;
+  height: 1.5625vw /* 30/1920*100 */; background-image: url("../../../img/main/headBox_1024/logo_05.png");
+  background-repeat: no-repeat; background-position: 50% 50%; background-size: cover;}
+.menu_05 {margin-right: 1.5625vw /* 30/1920*100 */;}
+.search, .happy {float: left; width: 3.645833333333333vw /* 70/1920*100 */; height: 1.614583333333333vw /* 31/1920*100 */;
+  font-weight: bold; text-align: center; font-size: 10pt; line-height: 1.614583333333333vw;}
+.search {margin-right: 0.6770833333333333vw /* 13/1920*100 */;}
+.location, .mobile {display: none;}
+
+
+/* titleBox ======== */
+.titleBox {min-height: 3.375rem; max-height: 3.5rem; height: 3.5rem;}
+.title {margin: auto; min-width: 2.604166666666667vw /* 50/1920*100 */; max-width: 13.41145833333333vw /* 103/1920*100 */; width: 7.540263543191801vw /* 103/1920*100 */;
+  min-height: 3.375rem; max-height: 3.5rem; height: 3.5rem; font-size: 1.50rem;
+  text-align: center; font-weight: bold; line-height: 3.5rem; text-transform: uppercase;}
+
+
+/* conBox ======== */
+.conBox {margin: auto; width: 100%; height: auto;}
+.conBox_in {position: relative; left: 479px;
+  min-width: 14.58333333333333vw; /* 280/1920*100 */ max-width: 56.51041666666667vw; /* 1085/1920*100 */
+  width: 56.51041666666667vw; /* 1085/1920*100 */
+  min-height: 40rem; max-height: 3020px; height: 3020px;}
+.con_title_01 {position: absolute; top: 244px; font-family:'Noto Sans KR', sans-serif;
+  font-weight: 700; font-size: 4.5rem; line-height: 90px; color: #2a9346;
+  min-width: 14.58333333333333vw; /* 280/1920*100 */ width: 414px;
+  height: 196px;}
+.con_bg_img {position: absolute; left: 487px; width: 580px; height: 450px;
+  background-image: url("../../../img/about/seven_about.svg");
+  background-repeat: no-repeat; background-position: 50% 90%;
+  background-size: cover;}
+.part_title_01 {position: absolute; top: 497px; font-family:'Noto Sans KR', sans-serif;
+  font-weight: 500; font-size: 33.33333333333333px; line-height: 50px; color: #ef8200;
+  width: 961px; height: 110px;}
+.con_text_01 {position: absolute; top: 625px; font-family:'Noto Sans KR', sans-serif;
+  font-weight: 400; font-size: 19px; line-height: 40px; color: #171717;
+  width: 961px; height: 237px;}
+
+
+.con_textBox_01 {margin: auto; position: absolute; top: 903px; border-radius: 15px;
+ box-shadow: 8px 8px 23px #ccc; width: 961px; height: 232px;}
+.text_box_outer_01 {position: absolute; left: 40px; top: 40px; width: 864px; height: 137px;}
+
+.text_box_in_01 {float: left; width: 320px; height: 137px;}
+.text_box_in_01 > li:nth-child(1) {font-family:'Noto Sans KR', sans-serif; font-weight: 700;
+  font-size: 75px; line-height: 106px; 
+  width: 320px; height: 106px;}
+.text_box_in_01 > li:nth-child(2) {font-size: 20px; line-height: 31px; text-transform: uppercase;
+  width: 320px; height: 31px;}
+
+.text_box_in_02 {float: left; margin-left: 73px;
+ width: 228px; height: 137px;}
+.text_box_in_02 > li:nth-child(1) {font-family:'Noto Sans KR', sans-serif; font-weight: 700; font-size: 75px;
+line-height: 106px;
+  width: 228px; height: 106px;}
+.text_box_in_02 > li:nth-child(2) {font-size: 20px; line-height: 31px; text-transform: uppercase;
+  width: 228px; height: 31px;}
+
+.text_box_in_03 {float: left; margin-left: 74px;
+ width: 169px; height: 137px;}
+.text_box_in_03 > li:nth-child(1) {font-family:'Noto Sans KR', sans-serif; font-weight: 700; font-size: 75px;
+  width: 169px; height: 106px;}
+.text_box_in_03 > li:nth-child(2) {font-size: 20px; line-height: 31px; text-transform: uppercase;
+  width: 169px; height: 31px;}
+
+
+.con_text_02 {position: absolute; top: 1222px; font-family:'Noto Sans KR', sans-serif;
+  font-weight: 400; font-size: 21.33333333333333px; line-height: 40px; color: #171717; text-align: center;
+  width: 961px; height: 166px;}
+
+
+.con_line {position: absolute; top: 1425px; left: 485px; width: 3px; height: 156px;}
+
+.con_title_02 {position: absolute; top: 1629px; left: 548px;  
+  font-family:'Noto Sans KR', sans-serif; text-align: right;
+  font-weight: 700; font-size: 4.5rem; line-height: 90px; color: #2a9346;
+ width: 414px; height: 196px;}
+.part_title_02 {position: absolute; top: 1882px; font-family:'Noto Sans KR', sans-serif;
+  font-weight: 500; font-size: 33.33333333333333px; line-height: 50px; color: #ef8200; text-align: right;
+  width: 961px; height: 110px;}
+.con_text_03 {position: absolute; top: 2012px; font-family:'Noto Sans KR', sans-serif;
+  font-weight: 400; font-size: 21.33333333333333px; line-height: 40px; color: #171717; text-align: right;
+  width: 961px; height: 266px;}
+
+
+.con_textBox_02 {margin: auto; position: absolute; top: 2337px; border-radius: 15px;
+  box-shadow: 8px 8px 23px #ccc; width: 961px; height: 232px;}
+.text_box_outer_02 {position: absolute; left: 50px; top: 40px; width: 932px; height: 137px;}
+
+.text_box_in_04 {float: left; width: 345px; height: 137px;}
+.text_box_in_04 > li:nth-child(1) {font-family:'Noto Sans KR', sans-serif; font-weight: 700;
+  font-size: 75px; line-height: 106px;
+ width: 345px; height: 106px;}
+.text_box_in_04 > li:nth-child(2) {font-size: 20px; width: 345px; height: 31px; text-transform: uppercase;}
+
+.text_box_in_05 {float: left; margin-left: 40px; width: 228px; height: 137px;}
+.text_box_in_05 > li:nth-child(1) {font-family:'Noto Sans KR', sans-serif; font-weight: 700;
+  font-size: 75px; line-height: 106px;
+  width: 228px; height: 106px;}
+.text_box_in_05 > li:nth-child(2) {font-size: 20px; width: 228px; height: 31px; text-transform: uppercase;}
+
+.text_box_in_06 {float: left; margin-left: 40px; width: 206px; height: 137px;}
+.text_box_in_06 > li:nth-child(1) {font-family:'Noto Sans KR', sans-serif; font-weight: 700;
+  font-size: 75px; line-height: 106px;
+  width: 206px; height: 106px;}
+.text_box_in_06 > li:nth-child(2) {font-size: 20px; width: 206px; height: 31px; text-transform: uppercase;}
+
+.con_text_04 {position: absolute; top: 2649px; font-family:'Noto Sans KR', sans-serif;
+  font-weight: 400; font-size: 21.33333333333333px; line-height: 40px; color: #171717; text-align: center;
+  width: 961px; height: 178px;}
+
+
+/* footBox ======== */
+.footBox {position: relative; min-width: 14.58333333333333vw /* 280/1920*100 */; width: 100%;
+    min-height: 6.25rem; max-height: 9.375vw /* 180/1920*100 */; height: 9.375vw /* 180/1920*100 */;}
+.addressBox_out {position: absolute; left: 8.854166666666667vw /* 170/1920*100 */; top: 1.510416666666667vw /* 29/1920*100 */;
+  min-width: 14.58333333333333vw /* 280/1920*100 */; max-width: 82.39583333333333vw /* 1582/1920*100 */; width: 82.39583333333333vw /* 1582/1920*100 */;
+  min-height: 1.25rem; max-height: 3.802083333333333vw /* 73/1920*100 */; height: 3.802083333333333vw /* 73/1920*100 */;}
+.addressBox {font-style: normal; font-size: 12pt;
+  min-width: 14.58333333333333vw /* 280/1920*100 */; max-width: 44.27083333333333vw /* 850/1920*100 */; width: 44.27083333333333vw /* 850/1920*100 */;
+  min-height: 2.5rem; max-height: 3.802083333333333vw /* 73/1920*100 */; height: 3.802083333333333vw /* 73/1920*100 */;}
+.snsBox_2 {position: absolute; left: 72.39583333333333vw /* 1390/1920*100 */; top: 0.8333333333333333vw /* 16/1920*100 */;
+  min-width: 10vw /* 192/1920*100 */; width: 10vw /* 192/1920*100 */;
+  min-height: 1.25rem; max-height: 2.083333333333333vw /* 40/1920*100 */; height: 2.083333333333333vw /* 40/1920*100 */;}
+.sns_2 {min-width: 1.041666666666667vw /* 20/1920*100 */; max-width:  2.083333333333333vw /* 40/1920*100 */; width:  2.083333333333333vw /* 40/1920*100 */;
+  min-height: 1.25rem; max-height: 2.083333333333333vw /* 40/1920*100 */; height: 2.083333333333333vw /* 40/1920*100 */;}
+.facebook_2, .kakaotalk_2, .blog_2 {float: left; margin-right: 0.5208333333333333vw /* 10/1920*100 */;}
+.facebook_2 {background-image: url("../../../img/facebook_icon_03.png"); background-repeat: no-repeat;
+            background-position: 50% 50%; background-size: cover;}
+.kakaotalk_2 {background-image: url("../../../img/kakao_icon_03.png"); background-repeat: no-repeat;
+            background-position: 50% 50%; background-size: cover;}
+.blog_2 {background-image: url("../../../img/blog_icon_03.png"); background-repeat: no-repeat;
+            background-position: 50% 50%; background-size: cover}
+.instagram_2 {float: right; background-image: url("../../../img/insta_icon_03.png"); background-repeat: no-repeat;
+            background-position: 50% 50%; background-size: cover;}
+.pc, .up {display: none;}
+.familyBox {position: absolute; top: 6.302083333333333vw /* 121/1920*100 */; left: 8.854166666666667vw /* 170/1920*100 */;
+      width: 82.39583333333333vw /* 1582/1920*100 */; height: 1.8125rem; background-color: transparent;}
+.family select[name="sel"] {float: right; width: 6.822916666666667vw /* 131/1920*100 */; height: 1.510416666666667vw /* 29/1920*100 */;}
+
+
+} /*pcfull end*/

@@ -1,0 +1,279 @@
+/* sevenEleven_partner_pcfull.css */
+
+@media screen and (min-width: 1367px) {
+
+
+/* commonArea ==================== */
+.menu {float: left; margin-right: 1.145833333333333vw /* 22/1920*100 */; width: 4.166666666666667vw /* 80/1920*100 */;
+  min-height: 1.614583333333333vw /* 31/1920*100 */; max-height: 1.614583333333333vw /* 31/1920*100 */;
+  height: 1.614583333333333vw /* 31/1920*100 */; text-transform: uppercase; text-align: center;
+  line-height: 1.614583333333333vw; font-weight: bold;}
+.headBox, .titleBox {min-width: 14.58333333333333vw /* 280/1920*100 */; max-width: 100%; width: 100%;}
+
+
+/* headBox ======== */
+.headBox {min-width: 14.58333333333333vw /* 280/1920*100 */; width: 100%;
+  min-height: 3.125rem; max-height: 4.635416666666667vw/* 89/1920*100 */; height: 4.635416666666667vw/* 89/1920*100 */;}
+.head_in {position: absolute; top: 1.5625vw /* 30/1920*100 */; left: 8.333333333333333vw /* 160/1920*100 */;
+  min-width: 14.58333333333333vw /* 280/1920*100 */; max-width: 82.39583333333333vw /* 1582/1920*100 */;
+  width: 82.39583333333333vw /* 1582/1920*100 */;
+  min-height: 1.614583333333333vw /* 31/1920*100 */; max-height: 1.614583333333333vw /* 31/1920*100 */;
+  height: 1.614583333333333vw /* 31/1920*100 */;}
+h1 {float: left; margin-right: 35.41666666666667vw /* 680/1920*100 */; width: 11.97916666666667vw /* 230/1920*100 */;
+  height: 1.5625vw /* 30/1920*100 */; background-image: url("../../../img/main/headBox_1024/logo_05.png");
+  background-repeat: no-repeat; background-position: 50% 50%; background-size: cover;}
+.menu_05 {margin-right: 1.5625vw /* 30/1920*100 */;}
+.search, .happy {float: left; width: 3.645833333333333vw /* 70/1920*100 */; height: 1.614583333333333vw /* 31/1920*100 */;
+  font-weight: bold; text-align: center; font-size: 10pt; line-height: 1.614583333333333vw;}
+.search {margin-right: 0.6770833333333333vw /* 13/1920*100 */;}
+.location, .mobile {display: none;}
+
+
+/* titleBox ======== */
+.titleBox {min-height: 3.375rem; max-height: 3.5rem; height: 3.5rem;}
+.title {margin: auto; min-width: 2.604166666666667vw /* 50/1920*100 */; max-width: 5.364583333333333vw /* 103/1920*100 */;
+  width: 5.364583333333333vw /* 103/1920*100 */;
+  min-height: 3.375rem; max-height: 3.5rem; height: 3.5rem; font-size: 1.50rem;
+  text-align: center; font-weight: bold; line-height: 3.5rem; text-transform: uppercase;}
+
+/* processBox ======== */
+.processBox {width: 100%; height: 1520px;}
+.content_outer {margin: auto; margin-top: 60px; margin-bottom: 92px;
+  width: 632px; height: 1239px;}
+
+
+/* line_animation ======== */
+.lineBox_01, .lineBox_02, .lineBox_03, .lineBox_04, .lineBox_05, .lineBox_06, .lineBox_07, .lineBox_08>div
+    {position: absolute;
+    transition-property: all;
+    transition-duration: 500ms;
+    transition-timing-function: ease;
+    transition-delay: 0ms;}
+
+.line:hover {background-color: #ef8200;}
+
+
+/* line_animation_01======== */
+.lineBox_01:hover .lineBox_01_01 {height: 46px;
+                                  transition-property: height, background-color;
+                                  transition-delay: 100ms;
+                                  transition-duration: 300ms;}
+.lineBox_01:hover .lineBox_01_02 {width: 514px;
+                                  transition-property: width, background-color;
+                                  transition-delay: 500ms;
+                                  transition-duration: 300ms;}
+.lineBox_01:hover .lineBox_01_03 {height: 25px;
+                                  transition-property: height, background-color;
+                                  transition-delay: 1000ms;
+                                  transition-duration: 300ms;}
+
+/* line_animation_02======== */
+.lineBox_02:hover .lineBox_02_01 {height: 25px;
+                                  transition-property: height, background-color;
+                                  transition-delay: 100ms;
+                                  transition-duration: 300ms;}
+.lineBox_02:hover .lineBox_02_02 {width: 520px;
+                                  transition-property: width, background-color;
+                                  transition-delay: 500ms;
+                                  transition-duration: 300ms;}
+.lineBox_02:hover .lineBox_02_03 {height: 23px;
+                                  transition-property: height, background-color;
+                                  transition-delay: 1000ms;
+                                  transition-duration: 300ms;}
+
+/* line_animation_03======== */
+.lineBox_03:hover .lineBox_03_01 {height: 22px;
+                                  transition-property: height, background-color;
+                                  transition-delay: 100ms;
+                                  transition-duration: 300ms;}
+.lineBox_03:hover .lineBox_03_02 {width: 520px;
+                                  transition-property: width, background-color;
+                                  transition-delay: 500ms;
+                                  transition-duration: 300ms;}
+.lineBox_03:hover .lineBox_03_03 {height: 25px;
+                                  transition-property: height, background-color;
+                                  transition-delay: 1000ms;
+                                  transition-duration: 300ms;}
+
+/* line_animation_04======== */
+.lineBox_04:hover .lineBox_04_01 {height: 25px;
+                                  transition-property: height, background-color;
+                                  transition-delay: 100ms;
+                                  transition-duration: 300ms;}
+.lineBox_04:hover .lineBox_04_02 {width: 520px;
+                                  transition-property: width, background-color;
+                                  transition-delay: 500ms;
+                                  transition-duration: 300ms;}
+.lineBox_04:hover .lineBox_04_03 {height: 23px;
+                                  transition-property: height, background-color;
+                                  transition-delay: 1000ms;
+                                  transition-duration: 300ms;}
+
+/* line_animation_05======== */
+.lineBox_05:hover .lineBox_05_01 {height: 22px;
+                                  transition-property: height, background-color;
+                                  transition-delay: 100ms;
+                                  transition-duration: 300ms;}
+.lineBox_05:hover .lineBox_05_02 {width: 520px;
+                                  transition-property: width, background-color;
+                                  transition-delay: 500ms;
+                                  transition-duration: 300ms;}
+.lineBox_05:hover .lineBox_05_03 {height: 25px;
+                                  transition-property: height, background-color;
+                                  transition-delay: 1000ms;
+                                  transition-duration: 300ms;}
+
+/* line_animation_06======== */
+.lineBox_06:hover .lineBox_06_01 {height: 25px;
+                                  transition-property: height, background-color;
+                                  transition-delay: 100ms;
+                                  transition-duration: 300ms;}
+.lineBox_06:hover .lineBox_06_02 {width: 520px;
+                                  transition-property: width, background-color;
+                                  transition-delay: 500ms;
+                                  transition-duration: 300ms;}
+.lineBox_06:hover .lineBox_06_03 {height: 23px;
+                                  transition-property: height, background-color;
+                                  transition-delay: 1000ms;
+                                  transition-duration: 300ms;}
+
+/* line_animation_07======== */
+.lineBox_07:hover .lineBox_07_01 {height: 24px;
+                                  transition-property: height, background-color;
+                                  transition-delay: 100ms;
+                                  transition-duration: 300ms;}
+.lineBox_07:hover .lineBox_07_02 {width: 514px;
+                                  transition-property: width, background-color;
+                                  transition-delay: 500ms;
+                                  transition-duration: 300ms;}
+.lineBox_07:hover .lineBox_07_03 {height: 48px;
+                                  transition-property: height, background-color;
+                                  transition-delay: 1000ms;
+                                  transition-duration: 300ms;}
+
+/* processBox (01) ======== */
+.processBox_01 {position: relative; width: 632px; height: 113px;}
+.pro_icon_01 {position: absolute; border-radius: 50% 50%;
+  width: 113px; height: 113px;
+  background-image: url("../../../img/partner/process_icon_01.svg"); background-repeat: no-repeat;
+  background-position: 50% 50%; background-size: 80% 80%;}
+.pro_title_01 {position: absolute; top: 25px; left: 133px; font-family:'Noto Sans KR', sans-serif;
+  font-size: 20px; font-weight: 500; text-align: left; line-height: 63px; color: #ef8200;
+  width: 121px; height: 63px;}
+.pro_text_01 {position: absolute; top: 25px; left: 267px; width: 348px; height: 63px;
+  font-family:'Noto Sans KR', sans-serif; font-size: 16px; font-weight: 400; text-align: left;}
+
+.lineBox_01 {position: relative; width: 632px; height: 66px;}
+.lineBox_01_01 {position: absolute; left: 54px;
+  width: 5px; height: 0;}
+.lineBox_01_02 {position: absolute; top: 41px; left: 59px;
+  width: 0; height: 5px;}
+.lineBox_01_03 {position: absolute; top: 41px; left: 573px;
+  width: 5px; height: 0;}
+
+.pro_icon_02 {background-image: url("../../../img/partner/process_icon_02.svg");
+  background-repeat: no-repeat; background-position: 50% 50%; background-size: 80% 80%;}
+.pro_icon_03 {background-image: url("../../../img/partner/process_icon_03.svg");
+  background-repeat: no-repeat; background-position: 50% 50%; background-size: 80% 80%;}
+.pro_icon_04 {background-image: url("../../../img/partner/process_icon_04.svg");
+  background-repeat: no-repeat; background-position: 50% 50%; background-size: 80% 80%;}
+.pro_icon_05 {background-image: url("../../../img/partner/process_icon_05.svg");
+  background-repeat: no-repeat; background-position: 50% 50%; background-size: 80% 80%;}
+.pro_icon_06 {background-image: url("../../../img/partner/process_icon_06.svg");
+  background-repeat: no-repeat; background-position: 50% 50%; background-size: 80% 80%;}
+.pro_icon_07 {background-image: url("../../../img/partner/process_icon_07.svg");
+  background-repeat: no-repeat; background-position: 50% 50%; background-size: 85% 85%;}
+
+
+/* processBox (02, 04, 06) ======== */
+.processBox_02, .processBox_04, .processBox_06 {position: relative; width: 632px; height: 113px;}
+.pro_icon_02, .pro_icon_04, .pro_icon_06 {position: absolute; border-radius: 50% 50%; left: 518px; width: 113px; height: 113px;}
+.pro_title_02, .pro_title_04, .pro_title_06 {position: absolute; top: 25px; left: 377px;
+  font-family:'Noto Sans KR', sans-serif; font-size: 20px; font-weight: 500; text-align: right;
+  color: #ef8200; line-height: 63px; width: 121px; height: 63px;}
+.pro_text_02, .pro_text_04, .pro_text_06 {position: absolute; left: 16px; top: 25px; width: 348px; height: 63px;
+  font-family:'Noto Sans KR', sans-serif; font-size: 16px; font-weight: 400; text-align: left;}
+
+.lineBox_02, .lineBox_04, .lineBox_06 {position: relative; width: 632px; height: 43px;}
+.lineBox_02_01, .lineBox_04_01, .lineBox_06_01 {position: absolute; left: 574px;
+  width: 5px; height: 0;}
+.lineBox_02_02, .lineBox_04_02, .lineBox_06_02 {position: absolute; top: 20px; right: 54px;
+  width: 0; height: 5px;}
+.lineBox_02_03, .lineBox_04_03, .lineBox_06_03 {position: absolute; top: 20px; left: 54px;
+  width: 5px; height: 0;}
+
+
+/* processBox (03, 05, 07) ======== */
+.processBox_03, .processBox_05, .processBox_07 {position: relative; width: 632px; height: 113px;}
+.pro_icon_03, .pro_icon_05, .pro_icon_07 {position: absolute; border-radius: 50% 50%;
+  width: 113px; height: 113px;}
+.pro_title_03, .pro_title_05, .pro_title_07 {position: absolute; top: 30px; left: 134px;
+  font-family:'Noto Sans KR', sans-serif; font-size: 20px; font-weight: 500; text-align: left;
+  color: #ef8200; line-height: 63px; width: 140px; height: 63px;}
+.pro_text_03, .pro_text_05, .pro_text_07 {position: absolute; left: 290px; top: 30px; width: 333px; height: 63px;
+  font-family:'Noto Sans KR', sans-serif; font-size: 16px; font-weight: 400; text-align: left;}
+
+
+.lineBox_03, .lineBox_05 {position: relative; width: 632px; height: 43px;}
+.lineBox_03_01, .lineBox_05_01 {position: absolute; left: 54px;
+  width: 5px; height: 0;}
+.lineBox_03_02, .lineBox_05_02 {position: absolute; top: 17px; left: 59px;
+  width: 0; height: 5px;}
+.lineBox_03_03, .lineBox_05_03 {position: absolute; top: 18px; left: 574px;
+  width: 5px; height: 0;}
+
+.lineBox_07 {position: relative; width: 100%; height: 53px;}
+.lineBox_07_01 {position: absolute;  left: 56px;
+  width: 5px; height: 0;}
+.lineBox_07_02 {position: absolute; top: 19px; left: 61px;
+  width: 0; height: 5px;}
+.lineBox_07_03 {position: absolute; top: 19px; left: 575px;
+  width: 5px; height: 0;}
+
+
+/* processBox (08) ======== */
+.processBox_08 {position: relative; top: 10px; width: 632px; height: 113px;}
+.pro_icon_08 {position: absolute; border-radius: 50% 50%; left: 519px; width: 113px; height: 113px;
+  background-image: url("../../../img/partner/process_icon_08.svg"); background-repeat: no-repeat;
+  background-position: 50% 50%; background-size: 75% 75%;}
+.pro_title_08 {position: absolute; top: 25px; left: 377px; font-family:'Noto Sans KR', sans-serif;
+  color: #ef8200; font-size: 20px; font-weight: 500; text-align: right; line-height: 63px;
+  width: 121px; height: 63px;}
+.pro_text_08 {position: absolute; left: 16px; top: 25px; width: 348px; height: 63px;
+  font-family:'Noto Sans KR', sans-serif; font-size: 16px; font-weight: 400; text-align: left;}
+
+.receipt {position: relative; left: 264px; top: 30px; bottom: 40px; text-align: center; line-height: 32px;
+  width: 104px; height: 40px; border-radius: 5px;}
+.receipt > a {color: #fff;}
+
+
+/* footBox ======== */
+.footBox {position: relative; min-width: 14.58333333333333vw /* 280/1920*100 */; width: 100%;
+    min-height: 6.25rem; max-height: 9.375vw /* 180/1920*100 */; height: 9.375vw /* 180/1920*100 */;}
+.addressBox_out {position: absolute; left: 8.854166666666667vw /* 170/1920*100 */; top: 1.510416666666667vw /* 29/1920*100 */;
+  min-width: 14.58333333333333vw /* 280/1920*100 */; max-width: 82.39583333333333vw /* 1582/1920*100 */; width: 82.39583333333333vw /* 1582/1920*100 */;
+  min-height: 1.25rem; max-height: 3.802083333333333vw /* 73/1920*100 */; height: 3.802083333333333vw /* 73/1920*100 */;}
+.addressBox {font-style: normal; font-size: 12pt;
+  min-width: 14.58333333333333vw /* 280/1920*100 */; max-width: 44.27083333333333vw /* 850/1920*100 */; width: 44.27083333333333vw /* 850/1920*100 */;
+  min-height: 2.5rem; max-height: 3.802083333333333vw /* 73/1920*100 */; height: 3.802083333333333vw /* 73/1920*100 */;}
+.snsBox_2 {position: absolute; left: 72.39583333333333vw /* 1390/1920*100 */; top: 0.8333333333333333vw /* 16/1920*100 */;
+  min-width: 10vw /* 192/1920*100 */; width: 10vw /* 192/1920*100 */;
+  min-height: 1.25rem; max-height: 2.083333333333333vw /* 40/1920*100 */; height: 2.083333333333333vw /* 40/1920*100 */;}
+.sns_2 {min-width: 1.041666666666667vw /* 20/1920*100 */; max-width:  2.083333333333333vw /* 40/1920*100 */; width:  2.083333333333333vw /* 40/1920*100 */;
+  min-height: 1.25rem; max-height: 2.083333333333333vw /* 40/1920*100 */; height: 2.083333333333333vw /* 40/1920*100 */;}
+.facebook_2, .kakaotalk_2, .blog_2 {float: left; margin-right: 0.5208333333333333vw /* 10/1920*100 */;}
+.facebook_2 {background-image: url("../../../img/facebook_icon_03.png"); background-repeat: no-repeat;
+            background-position: 50% 50%; background-size: cover;}
+.kakaotalk_2 {background-image: url("../../../img/kakao_icon_03.png"); background-repeat: no-repeat;
+            background-position: 50% 50%; background-size: cover;}
+.blog_2 {background-image: url("../../../img/blog_icon_03.png"); background-repeat: no-repeat;
+            background-position: 50% 50%; background-size: cover}
+.instagram_2 {float: right; background-image: url("../../../img/insta_icon_03.png"); background-repeat: no-repeat;
+            background-position: 50% 50%; background-size: cover;}
+.pc, .up {display: none;}
+.familyBox {position: absolute; top: 6.302083333333333vw /* 121/1920*100 */; left: 8.854166666666667vw /* 170/1920*100 */;
+      width: 82.39583333333333vw /* 1582/1920*100 */; height: 1.8125rem; background-color: transparent;}
+.family select[name="sel"] {float: right; width: 6.822916666666667vw /* 131/1920*100 */; height: 1.510416666666667vw /* 29/1920*100 */;}
+
+
+} /*pcfull end*/

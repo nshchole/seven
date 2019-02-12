@@ -1,0 +1,52 @@
+/* rwd_seven_main_common.css */
+
+/* commonArea ==================== */
+i {font-style: normal;}
+#wrap {width: 100%; height: auto;}
+.ser1 {background-color: transparent;}
+.ser2 {background-color: transparent;}
+.ser3 {background-color: transparent;}
+.con1 {background-color: #fff;}
+
+/* headBox ======== */
+.headBox {background-color: #fff;}
+.head_in {background-color: #fff;}
+.location, h1, .menu_mobile, .search, .happy {background-color: transparent;}
+
+/* adverBox ======== */
+.adverBox {background-color: transparent;}
+
+/* contentBox_01 ======== */
+.contentBox_01 {background-color: transparent;}
+.contentBox_01_title_bg {background-color: transparent;}
+.contentBox_01_title {background-color: transparent;}
+.content_product_bg {background-color: transparent;}
+.oneplus, .pb {background-color: transparent;}
+.twoplus, .gift {background-color: transparent;}
+
+/* contentBox_02 ======== */
+.contentBox_02 {background-color: transparent;}
+.contentBox_02_title_bg {background-color: transparent;}
+.contentBox_02_title {background-color: transparent;}
+.service_bg_01 {background-color: transparent;}
+.service_bg_02 {background-color: transparent;}
+
+/* contentBox_03 ======== */
+.contentBox_03 {background-color: transparent;}
+.contentBox_03_in {background-color: transparent;}
+
+/* pc_upBox ======== */
+.pc_upBox {background-color: #f343aa;}
+.pc {background-color: #2a9346;}
+.up {background-color: #f5821f;}
+
+/* snsBox ======== */
+.snsBox {background-color: #171717;}
+.snsBox_in {background-color: transparent;}
+.sns {background-color: transparent;}
+
+/* footBox ======== */
+.footBox {background-color: #171717;}
+.addressBox {background-color: transparent; color: #fff;}
+.snsBox_2 {background-color: transparent;}
+.sns_2 {background-color: transparent;}

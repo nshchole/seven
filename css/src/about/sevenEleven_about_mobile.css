@@ -1,0 +1,102 @@
+/* sevenEleven_about_mobile.css */
+
+/* mobile 480================================================== */
+@media screen and (max-width: 480px) {
+  /* device 기준크기 : 480px */
+
+
+/* commonArea ==================== */
+.pcf, .con {display: none;}
+
+
+
+/* headBox ======== */
+.headBox {position: relative; min-width: 58.33333333333333vw /* 280/480*100 */; width: 100%;
+  min-height: 3.125rem; max-height: 4.1875rem; height: 4.1875rem;}
+.head_in {position: absolute; top: 2.708333333333333vw /* 13/480*100 */; left: 5vw /* 24/480*100 */;
+  min-width: 20.83333333333333vw /* 100/480*100 */; max-width: 90vw /* 432/480*100 */; width: 90vw /* 432/480*100 */;
+  max-height: 2.5rem; height: 2.5rem;}
+.location {position: absolute; width: 8.333333333333333vw /* 40/480*100 */; height: 2.5rem;
+    background-image: url("../../../img/headBox/location_icon.jpg");
+    background-repeat: no-repeat;}
+h1 {position: absolute; left: 36.875vw /* 177/480*100 */; width: 16.25vw /* 78/480*100 */; height: 2.5rem;
+    background-image: url("../../../img/headBox/logo_mobile.svg"); background-repeat: no-repeat;
+    background-position: 50% 50%; background-size: 100% 100%;}
+.menu_mobile {position: absolute; left: 81.66666666666667vw /* 392/480*100 */; width: 8.333333333333333vw /* 40/480*100 */; height: 2.5rem; background-image: url("../../../img/headBox/menu_icon.jpg"); background-repeat: no-repeat;}
+
+
+/* titleBox ======== */
+.titleBox {min-height: 3.375rem; max-height: 3.375rem; height: 3.375rem;}
+.title {margin: auto; min-width: 10.41666666666667vw /* 50/480*100 */; max-width: 20.83333333333333vw /* 100/480*100 */; width: 20.83333333333333vw /* 100/480*100 */;
+  min-height: 3.375rem; max-height: 3.375rem; height: 3.375rem; font-size: 16pt;
+  text-align: center; font-weight: bold; line-height: 3.375rem; text-transform: uppercase;}
+
+
+
+/* conBox ======== */
+.conBox {width: 100%; height: auto;}
+.conBox_in {margin: auto; position: relative;
+  min-width: 58.33333333333333vw; /* 280/480*100 */ max-width: 90.625vw; /* 435/480*100 */ width: 90.625vw; /* 435/480*100 */
+  min-height: 40rem; max-height: 80.3125rem; height: 80.3125rem;}
+.con_title_01 {position: absolute; top: 6.5625rem; font-family:'Noto Sans KR', sans-serif;
+  font-weight: 700; font-size: 2.5rem; line-height: 3.33333rem; color: #2a9346;
+  min-width: 58.33333333333333vw; /* 280/480*100 */ width: 11.75rem;
+  height: 5.1875rem;}
+.con_bg_img {position: absolute; left: 13.5rem; width: 13.6875rem; height: 11.75rem;
+  background-image: url("../../../img/about/seven_about.svg");
+  background-repeat: no-repeat; background-position: 50% 90%;
+  background-size: cover;}
+.part_title_01 {position: absolute; top: 15rem; font-family:'Noto Sans KR', sans-serif;
+  font-weight: 500; font-size: 1rem; line-height: 2rem; color: #ef8200;
+  width: 27.1875rem; height: 3.375rem;}
+.con_text_01 {position: absolute; top: 20.125rem; font-family:'Noto Sans KR', sans-serif;
+  font-weight: 400; font-size: 0.75rem; line-height: 1.5rem; color: #171717;
+  width: 27.1875rem; height: 6.875rem;}
+.con_text_02 {position: absolute; top: 28.75rem; font-family:'Noto Sans KR', sans-serif;
+  font-weight: 400; font-size: 1rem; line-height: 1.91667rem; text-align: center; color: #171717;
+  width: 27.1875rem; height: 5.5rem;}
+
+.con_line {position: absolute; top: 36.5625rem; left: 13.5rem; width: 0.125rem; height: 4.375rem;}
+
+.con_title_02 {position: absolute; top: 43.25rem; left: 15.3125rem; 
+  font-family:'Noto Sans KR', sans-serif; text-align: right;
+  font-weight: 700; font-size: 2.5rem; line-height: 3.33333rem; color: #2a9346;
+ width: 11.875rem; height: 5.1875rem;}
+.part_title_02 {position: absolute; top: 51.25rem; font-family:'Noto Sans KR', sans-serif;
+  font-weight: 500; font-size: 1rem; line-height: 1.5rem; color: #ef8200; text-align: right;
+  width: 27.1875rem; height: 3.375rem;}
+.con_text_03 {position: absolute; top: 56.375rem; font-family:'Noto Sans KR', sans-serif;
+  font-weight: 400; font-size: 0.75rem; line-height: 1.5rem; color: #171717; text-align: right;
+  width: 27.1875rem; height: 6.875rem;}
+.con_text_04 {position: absolute; top: 1067px; font-family:'Noto Sans KR', sans-serif;
+  font-weight: 400; font-size: 1rem; line-height: 1.91667rem; color: #171717; text-align: center;
+  width: 27.1875rem; height: 5.5rem;}
+
+
+  /* snsBox ======== */
+.snsBox {position: relative; min-width: 58.33333333333333vw /* 280/480*100 */; width: 100%;
+  min-height: 1.25rem; max-height: 3.4375rem; height: 3.4375rem;}
+.snsBox_in {position: absolute; left: 31.04166666666667vw /* 149/480*100 */; top: 2.708333333333333vw /* 13/480*100 */;
+  min-width: 20.83333333333333vw /* 100/480*100 */; max-width: 38.125vw /* 183/480*100 */; width: 38.125vw /* 183/480*100 */;
+  min-height: 1.25rem; max-height: 1.875rem; height: 1.875rem;}
+.sns {min-width: 4.166666666666667vw /* 20/480*100 */; max-width: 6.25vw /* 30/480*100 */; width: 6.25vw /* 30/480*100 */;
+  min-height: 1.25rem; max-height: 1.875rem; height: 1.875rem;}
+.facebook, .kakaotalk, .blog {float: left; margin-right: 4.375vw /* 21/480*100 */;}
+.facebook {background-image: url("../../../img/facebook_icon.png"); background-repeat: no-repeat;}
+.kakaotalk {background-image: url("../../../img/kakao_icon.png"); background-repeat: no-repeat;}
+.blog {background-image: url("../../../img/blog_icon.png"); background-repeat: no-repeat;}
+.instagram {float: right; background-image: url("../../../img/insta_icon.png");
+            background-repeat: no-repeat;}
+
+
+/* footBox ======== */
+.footBox {position: relative; min-width: 58.33333333333333vw /*280/480*100*/; width: 100%;
+  min-height: 6.25rem; max-height: 7.625rem; height: 7.625rem;}
+.addressBox {position: absolute; left: 9.166666666666667vw /* 44/480*100 */; top: 6.041666666666667vw /* 29/480*100 */; font-style: normal; font-size: 10pt;
+  color: #fff;
+  min-width: 58.33333333333333vw /* 280/480*100 */; max-width: 81.66666666666667vw /* 392/480*100 */; width: 81.66666666666667vw /* 392/480*100 */;
+  min-height: 2.5rem; max-height: 3.625rem; height: 3.625rem;}
+.familyBox {display: none;}
+
+
+} /*end mobile 480*/
